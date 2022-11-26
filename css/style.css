@@ -3,7 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Poppins', sans-serif;
+    /* font-family:'Poppins', sans-serif; */
+}
+.content
+{
+    background-image:  url(/img/back.jpg);
+    background-position: center;
+    background-size: cover; 
+    width: 100%;   
+    padding: 5%;
+    min-height: 100vh;
 }
 .map-img
 {
@@ -11,12 +20,22 @@
     align-items: center;
     justify-content: center;
 }
+.heading
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 155px;
+}
+.heading h1{
+    color: white;
+   text-decoration: underline;
+}
 .container
 {
     width: 100%;   
-    min-height: 100vh;
     padding: 5%;
-    background-image:  url(/img/back.jpg); 
+    min-height:0vh;
     background-position: center;
     background-size: cover;
     display: flex;
